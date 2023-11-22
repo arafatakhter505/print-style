@@ -1,4 +1,5 @@
 import { RatingIcon, UserBlackIcon } from "@/public";
+import { ChevronRight } from "lucide-react";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -62,7 +63,9 @@ const TopReviews = () => {
         </div>
       </div>
       <div className="text-center mt-12">
-        <Link href={"/"}>Load More</Link>
+        <Link href={"/"} className="flex items-center justify-center">
+          Load More <ChevronRight className="h-4 w-4" />
+        </Link>
       </div>
     </div>
   );

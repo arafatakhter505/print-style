@@ -26,6 +26,7 @@ import UserBlackIcon from "./icon/userblack.png";
 import QuestionIcon from "./icon/question.png";
 import BuyIcon from "./icon/buy.png";
 import AddCartIcon from "./icon/add-cart.png";
+import UploadIcon from "./icon/upload.png";
 
 export {
   Logo,
@@ -56,4 +57,5 @@ export {
   QuestionIcon,
   BuyIcon,
   AddCartIcon,
+  UploadIcon,
 };
