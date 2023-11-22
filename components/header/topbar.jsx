@@ -21,7 +21,7 @@ const Topbar = () => {
       </Link>
 
       {/* search form */}
-      <div className="text-black w-full px-20">
+      <div className="text-black lg:w-full lg:px-20">
         <form>
           <div className="flex items-center border border-gray-300 rounded-l-md pl-3 lg:w-full bg-[#D5C4EB]">
             <Image src={SearchIcon} alt="icon" />
@@ -45,15 +45,15 @@ const Topbar = () => {
       </div>
 
       {/* icon button */}
-      <div className="md:flex items-center gap-7 hidden">
+      <div className="flex items-center gap-7">
         <Link href={"/"}>
-          <Image src={CartIcon} alt="icon" width={30} />
+          <Image src={CartIcon} alt="icon" width={40} />
         </Link>
         <Link href={"/"}>
-          <Image src={HeartIcon} alt="icon" width={30} />
+          <Image src={HeartIcon} alt="icon" width={40} />
         </Link>
         <Link href={"/"}>
-          <Image src={UserIcon} alt="icon" width={30} />
+          <Image src={UserIcon} alt="icon" width={40} />
         </Link>
       </div>
     </div>
