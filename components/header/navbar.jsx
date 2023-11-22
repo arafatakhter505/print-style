@@ -34,6 +34,8 @@ const Navbar = () => {
           ))}
         </NavigationMenuList>
       </NavigationMenu>
+      
+      {/* toogle */}
       <div className="flex items-center gap-2">
         <Image src={QuestionIcon} alt="icon" />
         <Switch />
